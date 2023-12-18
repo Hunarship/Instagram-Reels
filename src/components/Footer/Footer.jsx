@@ -1,8 +1,9 @@
 import React from "react";
 
 // import { Button } from "@material-ui/core";
-
-// import { Favorite, Comment, Send } from "@material-ui/icons";
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import CommentIcon from '@mui/icons-material/Comment';
+import SendIcon from '@mui/icons-material/Send';
 
 import "./Footer.css";
 
@@ -12,25 +13,23 @@ export default function Footer({ channel, song, likes, comment, shares }) {
       <div className="video-text">
         <h3>
           {channel} . ({song})
-          <button>
-            <h4 style={{ color: "white" }}>Follow</h4>
-          </button>
+         
         </h3>
       </div>
       {/*  */}
       <div className="footer-buttons">
         <div className="flex-box">
-          {/* <Favorite /> */}
+          <FavoriteIcon />
           {likes}
         </div>
-        {/*  */}
+        
         <div className="flex-box">
-          {/* <Comment /> */}
+          <CommentIcon />
           {comment}
         </div>
         {/*  */}
         <div className="flex-box">
-          {/* <Send /> */}
+          <SendIcon />
           {shares}
         </div>
       </div>

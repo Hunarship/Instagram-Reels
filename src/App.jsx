@@ -40,11 +40,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <center>
-        <div className="logo">
-          <img alt="logo" src={Logo} className="insta-logo" />
-        </div>
-        <h3>Reel</h3>
+      
+        
         {/*  */}
 
         <div className="video-container" id="video-container">
@@ -64,7 +61,7 @@ export default function App() {
 
           {/*  */}
         </div>
-      </center>
+      
     </div>
   );
 }

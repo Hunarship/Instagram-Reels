@@ -1,16 +1,16 @@
 import React from "react";
 
-// import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
-// import CameraAltIcon from "@material-ui/icons/CameraAlt";
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import CameraAltIcon from '@mui/icons-material/CameraAlt';
 
 import "./Header.css";
 
 export default function Header() {
   return (
     <div className="video-header">
-      {/* <ArrowBackIosIcon /> */}
+      <ArrowBackIcon />
       <h3>Reel</h3>
-      {/* <CameraAltIcon /> */}
+      <CameraAltIcon />
     </div>
   );
 }
