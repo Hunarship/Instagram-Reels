@@ -18,7 +18,7 @@ html {
 .video-container {
   position: relative;
   height: 100vh;
-  width: 607px;
+  width: 83%;
   max-width: 500px;
   border-radius: 20px;
   background-color: white;
