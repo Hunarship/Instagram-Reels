@@ -11,10 +11,10 @@ export default function Footer({ channel, song, likes, comment, shares }) {
   return (
     <div className="video-footer">
       <div className="video-text">
-        <h3>
+        {/* <h3>
           {channel} . ({song})
          
-        </h3>
+        </h3> */}
       </div>
       {/*  */}
       <div className="footer-buttons">

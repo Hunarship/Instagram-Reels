@@ -39,29 +39,43 @@ export default function App() {
   ];
 
   return (
-    <div className="App">
+    // <div className="App">
       
         
-        {/*  */}
+    //     {/*  */}
 
-        <div className="video-container" id="video-container">
-          {/*  */}
+    //     <div className="video-container" id="video-container">
+    //       {/*  */}
 
-          {data.map((list, i) => (
-            <Video
-              key={i}
-              channel={list.channel}
-              song={list.song}
-              url={list.url}
-              likes={list.likes}
-              comment={list.comment}
-              shares={list.shares}
-            />
-          ))}
+    //       {data.map((list, i) => (
+    //         <Video
+    //           key={i}
+    //           channel={list.channel}
+    //           song={list.song}
+    //           url={list.url}
+    //           likes={list.likes}
+    //           comment={list.comment}
+    //           shares={list.shares}
+    //         />
+    //       ))}
 
-          {/*  */}
-        </div>
+    //       {/*  */}
+    //     </div>
       
+    // </div>
+
+    <div className="App">
+     <div className="video-container" id="video-container">
+     <Video
+              // key={i}
+              // channel={list.channel}
+              // song={list.song}
+              url={"https://firebasestorage.googleapis.com/v0/b/aaonisaa3-94ca9.appspot.com/o/videos%2F2cb0fbe0-9d68-11ee-8966-092814640182?alt=media&token=8a7cb8ac-1049-46ca-9035-21db287cd547"}
+              // likes={list.likes}
+              // comment={list.comment}
+              // shares={list.shares}
+            />
+     </div>
     </div>
   );
 }
