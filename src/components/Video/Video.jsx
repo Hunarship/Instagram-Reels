@@ -44,7 +44,6 @@ export default function Video({ channel, song, url, likes, comment, shares }) {
 
   return (
     <div className="video-cards">
-      <Header />
       <video
         className="video-player"
         ref={vidRef}
