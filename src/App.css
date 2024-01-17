@@ -5,7 +5,7 @@ html {
 .App {
   display: grid;
   place-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: rgb(26, 25, 25);
   color: #fff;
 }

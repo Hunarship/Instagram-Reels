@@ -10,9 +10,9 @@ export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<MainPage />}/>
-        <Route path="/videos/:id" element={<SingleVideo />}/>
-        <Route path="/privacy" element={<Privacy />} />
+        {/* <Route path="/" element={<MainPage />}/> */}
+        {/* <Route path="/videos/:id" element={<SingleVideo />}/> */}
+        <Route path="/" element={<Privacy />} />
         <Route path="/term" element={<Term />} />
       </Routes>
     </div>
